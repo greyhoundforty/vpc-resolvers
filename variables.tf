@@ -16,18 +16,6 @@ variable "default_instance_profile" {
   default     = "bx2-8x32"
 }
 
-variable "domain" {
-  description = "Domain for compute instance."
-  type        = string
-  default     = ""
-}
-
-variable "zone" {
-  description = "Datacenter zone where instances will be deployed."
-  type        = string
-  default     = ""
-}
-
 variable "ssh_key" {
   description = "VPC ssh key to add to compute instance."
   type        = string
